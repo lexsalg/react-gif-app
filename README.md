@@ -1,3 +1,6 @@
+# Instalaciones necesarias
+https://gist.github.com/Klerith/4a4abfd88a88b2d1f16efd95fea41362
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
