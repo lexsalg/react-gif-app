@@ -14,7 +14,6 @@ export const CategoryAdd = ({ setCategories }) => {
         e.preventDefault();
 
         if (inputValue.trim().length > 2) {
-            // setCategories([...categories, 'nuevo'])
             setCategories(state => [inputValue, ...state])
             setInputValue('');
         }

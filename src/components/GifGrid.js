@@ -6,7 +6,7 @@ export const GifGrid = ({ category }) => {
 
 
 
-    const { data: images, loading } = useFetchGifs();
+    const { data: images, loading } = useFetchGifs(category);
 
 
     return (
