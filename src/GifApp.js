@@ -2,8 +2,9 @@ import { useState } from 'react';
 import { CategoryAdd } from './components/CategoryAdd';
 import { GifGrid } from './components/GifGrid';
 
-export const GifApp = () => {
-  const [categories, setCategories] = useState(['One Punch']);
+export const GifApp = ({ defaultCategories = [] }) => {
+  // const [categories, setCategories] = useState(['One Punch']);
+  const [categories, setCategories] = useState(defaultCategories);
 
   return (
     <>
