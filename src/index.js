@@ -2,10 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
 
-import { HookApp } from './HookApp';
+// import { HookApp } from './HookApp';
+// import { CounterApp } from './components/01-useState/CounterApp';
+import { CounterWithCustomHook } from './components/01-useState/CounterWithCustomHook';
 
 ReactDOM.render(
-  <HookApp />,
+  // <HookApp />,
+  // <CounterApp />,
+  <CounterWithCustomHook />,
   document.getElementById('root')
 );
 
